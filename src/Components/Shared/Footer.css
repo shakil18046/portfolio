@@ -1,0 +1,29 @@
+
+    .footer-grid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .social-list{
+        display: inline-block; 
+        margin-right: 10px;
+    }
+    .social-list a img {
+        width: 30px;
+    }
+    .footer{
+        padding: 15px 0;
+        background-color: white;
+    }
+    @media screen and (max-width: 768px){
+        .footer-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .col-two{
+            margin: 20px 0;
+        }
+    }

@@ -1,0 +1,47 @@
+.work-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.mywork{
+    padding: 60px 0;
+}
+.mywork-heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.myskill-grid{
+    display: flex;
+    justify-content: space-between;
+}
+.myskill-grid img {
+    width: 10%;
+}
+.myskill-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.myskill{
+    padding: 40px 0;
+}
+@media screen and (max-width: 768px){
+    .work-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .myskill-grid img {
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    .myskill-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mywork-heading,.myskill-heading{
+        font-size: 30px;
+    }
+}
