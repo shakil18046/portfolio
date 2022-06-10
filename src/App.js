@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Shared/Navbar';
 import 'aos/dist/aos.css';
 import Footer from './Components/Shared/Footer';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className="App">

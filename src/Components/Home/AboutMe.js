@@ -11,11 +11,7 @@ const AboutMe = () => {
                     </div>
                     <div className='about-content-wrapper' data-aos="fade-left" data-aos-duration="2000">
                         <h3 className='about-heading'>About me</h3>
-                        <p className='paragraph'>My name is Debashish D. Dev. I have completed my engineering on Computer Science in 2019.
-
-I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development.
-
-I want to make the internet minimal and easy to use. I am a mern full stack developer. I write poem in JavaScript.</p>
+                        <p className='paragraph'>My name is Md shakil Hossain. I am studying computer science engineering(CSE). I started my journey with wordpress. And then i learned React,nodejs,express.js. i did some project i focused on functionality and then i focused on responsive. I think functionality gives life to a website And responsive makes it beautiful.</p>
                     </div>
                     <div className='about-image-wrapper mobile'>
                         <img alt='' src={manTwo}></img>

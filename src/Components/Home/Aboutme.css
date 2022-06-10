@@ -1,8 +1,12 @@
 .about-heading{
     font-size: 25px;
+    font-weight: 600;
+    color: #2552F4;
+    padding-bottom: 20px;
 }
 .paragraph{
     font-size: 18px;
+    line-height: 28px;
 }
 .mobile{
     display: none;

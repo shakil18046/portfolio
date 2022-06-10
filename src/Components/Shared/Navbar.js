@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from "../../assets/Logo.png";
-import github from "../../assets/github.png"
-import linkdin from "../../assets/linkedin.png"
+
 import "./Navbar.css"
 const Navbar = () => {
     return (
@@ -20,7 +19,7 @@ const Navbar = () => {
                             <NavLink to="/" className='nav-link'>Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="#" className='nav-link'>Contact</NavLink>
+                            <a href="#contact" className='nav-link'>Contact</a>
                         </li>
                         <li className="nav-item">
                             <a href="https://drive.google.com/file/d/1EqpAqvIhxJAJQeqQGsdN6hkDwYlbvYHS/view?usp=sharing" target="_blank" className='nav-link resume'>Download Resume</a>
